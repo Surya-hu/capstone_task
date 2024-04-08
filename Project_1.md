@@ -12,6 +12,11 @@ sudo apt update
 sudo apt install docker.io  
 docker --version  
 
+Docker file created to build the docker image  
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/76e3438b-d8c4-41b7-ac7f-829020c32f0b)
+
+
 Docker successfully created and running as shown below  
 
 ![image](https://github.com/Surya-hu/capstone_task/assets/119995742/9da9fec4-1974-4bea-bb4d-6bf9ed310c77)
@@ -19,5 +24,18 @@ Docker successfully created and running as shown below
 Verified the same with public ip and found it working fine  
 
 ![image](https://github.com/Surya-hu/capstone_task/assets/119995742/b29013fc-7c62-4635-981c-fa9bfcf6daa0)
+
+Installed docker-compose using docker documentation and successfully installed  
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/c61db8d4-3982-4294-b4c7-b4506bc66d29)
+
+Docker-compose file  
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/e23443a8-6ed6-440d-aec6-d4feb33a4981)
+
+
+Using docker-compose deployed the another container with port:3000 and running successful as shown below  
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/b3d09dee-7850-4d11-bbb8-a3316669b5a1)
 
 
