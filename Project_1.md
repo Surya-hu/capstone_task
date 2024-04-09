@@ -39,3 +39,11 @@ Using docker-compose deployed the another container with port:3000 and running s
 ![image](https://github.com/Surya-hu/capstone_task/assets/119995742/b3d09dee-7850-4d11-bbb8-a3316669b5a1)
 
 
+Creating build.sh file for building docker image and run it using docker file and docker-compose.  
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/b866bb39-3b38-4994-8664-c758f3901da7)
+
+Before creating deploy.sh file created docker hub reposs one for Dev and another one for prod(private).  
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/02f99a18-128a-4121-94e6-722b6e0a529e)
+
