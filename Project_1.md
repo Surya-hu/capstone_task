@@ -31,7 +31,7 @@ Installed docker-compose using docker documentation and successfully installed
 
 Docker-compose file  
 
-![image](https://github.com/Surya-hu/capstone_task/assets/119995742/e23443a8-6ed6-440d-aec6-d4feb33a4981)
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/2e7b780f-6516-4fe9-8623-aac01ff6563b)
 
 
 Using docker-compose deployed the another container with port:3000 and running successful as shown below  
@@ -46,6 +46,11 @@ Creating build.sh file for building docker image and run it using docker file an
 Before creating deploy.sh file created docker hub reposs one for Dev and another one for prod(private).  
 
 ![image](https://github.com/Surya-hu/capstone_task/assets/119995742/02f99a18-128a-4121-94e6-722b6e0a529e)
+
+Created deploy.sh file as shown below:  
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/dbea99dd-d802-4007-a543-81904a4572a1)
+
 
 Jenkins installaion:  
 
@@ -82,7 +87,29 @@ Then created pipline in jenkins using below procedure.
 2. Entered the name fo the pipline as capstone_dev and capstone_prod
 3. In general tab selected GitHub project
 4. In buil triggers selected GitHub hook trigger for GITScm polling
-5. 
-6. 
+5. In pipline tab selceted pipeline script from SCM
+6. Then added Git and Git repo link over here.
+7. Apply and Save.
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/b5a873be-b9d3-499c-b5b5-a592f89c7159)
+
+
+Commenced build in jenkins to verify if the build gets successfull.
+
+As expected build was successfull, Application deployed with port 3000(prod) and 2000(Dev) as shown below and docker image has been pushed to relevant branch repo.
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/644ab3dc-e3d7-4db2-8c74-e0829bb1fc6c)
+
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/9cc0d410-6d2e-4245-ad04-eb1682f0f5f4)
+
+Docker images pushed accoring to the branch:  
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/8587ff03-bfe5-4788-9157-ec97fcea0c70)
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/e6b2ef38-a61a-41d7-a63a-fd39d0a01e60)
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/54b4db3a-c959-4159-9bd2-058af1f27a5f)
+
 
 
