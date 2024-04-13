@@ -47,3 +47,42 @@ Before creating deploy.sh file created docker hub reposs one for Dev and another
 
 ![image](https://github.com/Surya-hu/capstone_task/assets/119995742/02f99a18-128a-4121-94e6-722b6e0a529e)
 
+Jenkins installaion:  
+
+Installed Java  
+`sudo apt update
+sudo apt install fontconfig openjdk-17-jre
+java -version
+openjdk version "17.0.8" 2023-07-18
+OpenJDK Runtime Environment (build 17.0.8+7-Debian-1deb12u1)
+OpenJDK 64-Bit Server VM (build 17.0.8+7-Debian-1deb12u1, mixed mode, sharing)`
+
+Then installed jenkins:  
+`sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
+  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins`
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/b06954f8-3d17-4e7d-b78d-72710198067f)
+
+Created Jenkinsfile:  
+This file will use build.sh and deploy.sh files to deploy and run the application
+
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/9113687d-caee-401b-9c83-68dd4373333c)
+
+Given jenkins user previllage to ubuntu user using `sudo usermod -aG jenkins ubuntu`  
+
+Then created pipline in jenkins using below procedure.
+
+1. Add new Item
+2. Entered the name fo the pipline as capstone_dev and capstone_prod
+3. In general tab selected GitHub project
+4. In buil triggers selected GitHub hook trigger for GITScm polling
+5. 
+6. 
+
+
