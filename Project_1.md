@@ -112,4 +112,15 @@ Docker images pushed accoring to the branch:
 ![image](https://github.com/Surya-hu/capstone_task/assets/119995742/54b4db3a-c959-4159-9bd2-058af1f27a5f)
 
 
+Installed grafana and prometheus using official pages as shown below. and configured dashboard for monitoring up and cpu usage.
+
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/7c269045-269c-4ecc-81ed-48bf4cb5e192)
+
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/8c1f6ae5-ffa9-4bfb-b784-427adfad3215)
+
+
+
+
 
