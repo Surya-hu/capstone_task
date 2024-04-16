@@ -7,7 +7,14 @@ git remote add origin https://github.com/Surya-hu/capstone.git
 git branch -M main
 git push -u origin main
 
-Created EC2 instance and installed docker using below commands  
+Created EC2 instance and installed docker using below commands 
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/3378b034-85ec-48d7-a683-2220ec37bb71)
+
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/d3fdb962-b528-4877-8ee7-f592bca0f872)
+
+
 sudo apt update  
 sudo apt install docker.io  
 docker --version  
