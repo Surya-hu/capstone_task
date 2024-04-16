@@ -31,7 +31,8 @@ Installed docker-compose using docker documentation and successfully installed
 
 Docker-compose file  
 
-![image](https://github.com/Surya-hu/capstone_task/assets/119995742/2e7b780f-6516-4fe9-8623-aac01ff6563b)
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/efbc8364-a9c1-46b0-bf72-1b6cb413c473)
+
 
 
 Using docker-compose deployed the another container with port:3000 and running successful as shown below  
@@ -41,7 +42,8 @@ Using docker-compose deployed the another container with port:3000 and running s
 
 Creating build.sh file for building docker image and run it using docker file and docker-compose.  
 
-![image](https://github.com/Surya-hu/capstone_task/assets/119995742/b866bb39-3b38-4994-8664-c758f3901da7)
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/7caa5bd4-3b51-4ac8-93c4-3aa48bc19553)
+
 
 Before creating deploy.sh file created docker hub reposs one for Dev and another one for prod(private).  
 
@@ -49,7 +51,7 @@ Before creating deploy.sh file created docker hub reposs one for Dev and another
 
 Created deploy.sh file as shown below:  
 
-![image](https://github.com/Surya-hu/capstone_task/assets/119995742/dbea99dd-d802-4007-a543-81904a4572a1)
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/91ddffd0-c4f1-444e-b0c4-5805850f0131)
 
 
 Jenkins installaion:  
@@ -96,12 +98,16 @@ Then created pipline in jenkins using below procedure.
 
 Commenced build in jenkins to verify if the build gets successfull.
 
-As expected build was successfull, Application deployed with port 3000(prod) and 2000(Dev) as shown below and docker image has been pushed to relevant branch repo.
+As expected build was successfull, Application deployed with port 80 as shown below and docker image has been pushed to relevant branch repo.
 
 ![image](https://github.com/Surya-hu/capstone_task/assets/119995742/644ab3dc-e3d7-4db2-8c74-e0829bb1fc6c)
 
 
 ![image](https://github.com/Surya-hu/capstone_task/assets/119995742/9cc0d410-6d2e-4245-ad04-eb1682f0f5f4)
+
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/f0ee90fa-dbae-4071-b4ef-1eaf324c2ee2)  
+
 
 Docker images pushed accoring to the branch:  
 
