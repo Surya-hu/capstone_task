@@ -35,9 +35,10 @@ Docker-compose file
 
 
 
-Using docker-compose deployed the another container with port:3000 and running successful as shown below  
+Using docker-compose deployed the another container with port:80 and running successful as shown below  
 
-![image](https://github.com/Surya-hu/capstone_task/assets/119995742/b3d09dee-7850-4d11-bbb8-a3316669b5a1)
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/8b13a815-99c2-4793-8125-9a3ea73219a7)
+
 
 
 Creating build.sh file for building docker image and run it using docker file and docker-compose.  
@@ -73,7 +74,8 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
 sudo apt-get update
 sudo apt-get install jenkins`
 
-![image](https://github.com/Surya-hu/capstone_task/assets/119995742/b06954f8-3d17-4e7d-b78d-72710198067f)
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/2e33634b-64ea-4cb9-aee3-475aea1d6883)
+
 
 Created Jenkinsfile:  
 This file will use build.sh and deploy.sh files to deploy and run the application
@@ -93,21 +95,27 @@ Then created pipline in jenkins using below procedure.
 6. Then added Git and Git repo link over here.
 7. Apply and Save.
 
-![image](https://github.com/Surya-hu/capstone_task/assets/119995742/b5a873be-b9d3-499c-b5b5-a592f89c7159)
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/e99f00e7-2eee-41ab-8215-75f130808140)
+
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/37b88eac-6092-4379-8338-33158f74f1f5)
+
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/9430db83-c060-405b-b3e7-9546a9680229)
+
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/02005862-f8b8-4b39-8290-585c03499ef6)
+
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/7fdc9958-cade-4e0e-b101-c069d369ed28)
 
 
 Commenced build in jenkins to verify if the build gets successfull.
 
 As expected build was successfull, Application deployed with port 80 as shown below and docker image has been pushed to relevant branch repo.
 
-![image](https://github.com/Surya-hu/capstone_task/assets/119995742/644ab3dc-e3d7-4db2-8c74-e0829bb1fc6c)
-
-
-![image](https://github.com/Surya-hu/capstone_task/assets/119995742/9cc0d410-6d2e-4245-ad04-eb1682f0f5f4)
-
-
-![image](https://github.com/Surya-hu/capstone_task/assets/119995742/f0ee90fa-dbae-4071-b4ef-1eaf324c2ee2)  
-
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/90e44790-5f83-4e3e-a715-862ab9ef5322)
+ 
 
 Docker images pushed accoring to the branch:  
 
