@@ -14,7 +14,7 @@ Created EC2 instance and installed docker using below commands
 
 ![image](https://github.com/Surya-hu/capstone_task/assets/119995742/3378b034-85ec-48d7-a683-2220ec37bb71)
 
-SG group  
+SG group has more ports other than 80 to use prometheus, grafana and jenkins. 
 
 ![image](https://github.com/Surya-hu/capstone_task/assets/119995742/d3fdb962-b528-4877-8ee7-f592bca0f872)
 
