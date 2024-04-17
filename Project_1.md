@@ -1,16 +1,20 @@
 ## Final Project Submission (Capstone)
 
-Using the below commands cloned the repo from the documentation provided.
-git add .
-git commit -m "capstone"
-git remote add origin https://github.com/Surya-hu/capstone.git
-git branch -M main
-git push -u origin main
+Using the below commands cloned the repo from the documentation provided.  
+Git clone https://github.com/sriram-R-krishnan/devops-build  
+git init  
+git add .  
+git commit -m "capstone"  
+git remote add origin https://github.com/Surya-hu/capstone_1.git  
+git branch -M main  
+git push -u origin main  
+GITrepo URL: https://github.com/Surya-hu/capstone_1  
 
 Created EC2 instance and installed docker using below commands 
 
 ![image](https://github.com/Surya-hu/capstone_task/assets/119995742/3378b034-85ec-48d7-a683-2220ec37bb71)
 
+SG group  
 
 ![image](https://github.com/Surya-hu/capstone_task/assets/119995742/d3fdb962-b528-4877-8ee7-f592bca0f872)
 
@@ -139,7 +143,27 @@ Installed grafana and prometheus using official pages as shown below. and config
 ![image](https://github.com/Surya-hu/capstone_task/assets/119995742/7c269045-269c-4ecc-81ed-48bf4cb5e192)
 
 
-![image](https://github.com/Surya-hu/capstone_task/assets/119995742/8c1f6ae5-ffa9-4bfb-b784-427adfad3215)
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/8c1f6ae5-ffa9-4bfb-b784-427adfad3215)  
+
+
+Configure the Email notification alert if the application server gets down:
+
+Step 1:  Configured cloudwatch alarm  
+step 2:  Created alarm with metric `StatusCheckFailed_Instance`  
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/6c06ad61-b2e4-4434-bd9b-d0a4b14c036f)
+
+step 3:  Created topic in amazon SNS and configured with my gmail ID  
+
+step 4:  Once the alarm state `OK` as shown below  
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/cb5de088-d719-4f62-91d5-165a9593f852)
+
+And finally we have successfully received a notification stating that the instance is down  
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/8926ee3e-2c06-4177-9eb4-042518eadbfb)
+
+
 
 
 
