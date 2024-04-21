@@ -30,7 +30,8 @@ Docker file created to build the docker image
 
 Docker successfully created and running as shown below  
 
-![image](https://github.com/Surya-hu/capstone_task/assets/119995742/9da9fec4-1974-4bea-bb4d-6bf9ed310c77)
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/41907ab0-3b9a-4f07-9c5e-1d5935d6d806)
+
 
 Verified the same with public ip and found it working fine  
 
@@ -85,7 +86,19 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
 sudo apt-get update
 sudo apt-get install jenkins`
 
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/1d785d95-8d32-4f48-8a6c-fe990fbcd9ad)
+
+
 ![image](https://github.com/Surya-hu/capstone_task/assets/119995742/2e33634b-64ea-4cb9-aee3-475aea1d6883)
+
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/69262366-7c71-427d-93c4-6c9f688dfdde)
+
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/890915c5-f461-4972-b4b8-0090f76bde15)
+
+
+![image](https://github.com/Surya-hu/capstone_task/assets/119995742/aee57ebd-a303-4339-beb7-9c6ac0d887c5)
 
 
 Created Jenkinsfile:  
